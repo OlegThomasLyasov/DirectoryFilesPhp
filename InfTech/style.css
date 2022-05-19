@@ -1,0 +1,52 @@
+body{ 
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color:ghostwhite;
+}
+.btn-group button {
+    background-color:honeydew;
+    border: 1px solid rgb(0, 0, 0); 
+    color: black; 
+    padding: 5px 12px; 
+    cursor: pointer; 
+    float: left; 
+    font-weight: bold;
+}
+
+.choose, .chooseFile,.chooseFolder, .chooseFileDownload, .chooseReFile, .chooseReFolder, .chooseFolderCreate  {
+    cursor: pointer;
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    flex-direction: column;
+}
+
+#name_file, #name_folder_delete, #name_file_delete, #name_file_download, #name_file_rename, #name_folder_rename, #name_folder_create{
+    display: none;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+.title{
+    display: flex;
+    justify-content:start;
+    text-align: start;
+    font-size: 18px;
+}
+.content{
+    font-size: 16px; 
+    overflow-y: auto;
+    max-height: 550px;
+}
+
+
+
+
